@@ -26,7 +26,7 @@ int main ()
 	cin.ignore();
 	
 	//LOOK!!
-	//Dynamically allocate a new array of pointers to Courses of size numCourses and assign this array to myCourses
+	//Dynamically allocate a new array of pointers to Courses of size numCourses and assign this array to myCourses TESt
 	myCourses = new Course*[numCourses]; 
 	
 	for (int i=0; i< numCourses; i++)
